@@ -1,17 +1,18 @@
 beautifulsoup4==4.5.3
 bs4==0.0.1
-PyYAML==5.1.1
+PyYAML==5.2
 six==1.10.0
-requests==2.18.4
+requests==2.20
 Pillow
 wrapcache==1.0.8
 ntplib==0.3.3
 sklearn
 opencv-python
-keras==2.2.4
+keras==2.6.0rc3
 tensorflow==1.15.0rc1
 matplotlib>=3.0.2
 numpy>=1.14.6
 scipy>=1.1.0
 selenium==3.11.0
 fake-useragent==0.1.11
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
